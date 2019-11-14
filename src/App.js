@@ -2,8 +2,8 @@ import React, { Component } from "react"
 import Toolbar from "./components/Toolbar/Toolbar"
 import SideDrawer from "./components/SideDrawer/SideDrawer"
 import Backdrop from "./components/Backdrop/Backdrop"
-import Introduction from "./components/Introduction/Introduction"
-
+import About from "./components/About/About"
+import './App.css'
 class App extends Component {
   state = {
     SideDrawerOpen: false
@@ -27,12 +27,12 @@ class App extends Component {
     }
 
     return (
-      <div style={{ height: "100%" }}>
+      <div>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.SideDrawerOpen} />
         {backDrop}
-        <main style={{ marginTop: "64px", marginLeft: "16px" }}>
-          <Introduction />
+        <main className='content'>
+          <About />
         </main>
       </div>
     )

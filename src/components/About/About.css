@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  height: 400px;
+  background: rgb(54, 86, 183);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-items {
+  text-align: center;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.about-subtitle {
+  margin-top: 3px;
+}
