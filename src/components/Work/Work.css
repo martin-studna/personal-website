@@ -1,21 +1,21 @@
-.about {
+.work {
   display: flex;
   height: 400px;
-  background: rgb(1, 200, 183);
+  background: yellow;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.about-items {
+.work-items {
   text-align: center;
 }
 
-.about-title {
+.work-title {
   font-weight: bold;
   font-size: x-large;
 }
 
-.about-subtitle {
+.work-subtitle {
   margin-top: 3px;
 }

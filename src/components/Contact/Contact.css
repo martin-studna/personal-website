@@ -1,21 +1,21 @@
-.about {
+.contact {
   display: flex;
   height: 400px;
-  background: rgb(1, 200, 183);
+  background: rgb(141, 31, 31);
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.about-items {
+.contact-items {
   text-align: center;
 }
 
-.about-title {
+.contact-title {
   font-weight: bold;
   font-size: x-large;
 }
 
-.about-subtitle {
+.contact-subtitle {
   margin-top: 3px;
 }

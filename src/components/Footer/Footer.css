@@ -1,21 +1,21 @@
-.about {
+.footer {
   display: flex;
-  height: 400px;
-  background: rgb(1, 200, 183);
+  height: 56px;
+  background: black;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.about-items {
+.footer-items {
   text-align: center;
 }
 
-.about-title {
+.footer-title {
   font-weight: bold;
   font-size: x-large;
 }
 
-.about-subtitle {
+.footer-subtitle {
   margin-top: 3px;
 }

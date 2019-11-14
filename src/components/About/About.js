@@ -1,13 +1,13 @@
-import React from "react";
-import "./About.css";
+import React from "react"
+import "./About.css"
 
 const about = props => (
   <div className="about">
     <div className="about-items">
-      <div className="about-title">Martin Studna</div>
-      <div className="about-subtitle">Computer Scientist</div>
+      <div className="about-title">About</div>
+      <div className="about-subtitle"></div>
     </div>
   </div>
-);
+)
 
-export default about;
+export default about
