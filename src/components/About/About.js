@@ -13,8 +13,8 @@ const about = props => (
       </div>
       <div className="about-text">
         Futhermore, I work as a part-time contractor in IBM where I focus on
-        chatbot development. Lastly, I have also some personal contracts with my
-        clients.
+        chatbot development. Additionaly, I have also some personal contracts
+        with my clients.
       </div>
     </div>
   </div>

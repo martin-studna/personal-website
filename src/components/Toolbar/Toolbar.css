@@ -33,7 +33,7 @@
 }
 
 .toolbar_navigation_items li {
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
 }
 
 .toolbar_navigation_items a {
@@ -57,7 +57,12 @@
     display: none;
   }
 
+  .toolbar_navigation_items {
+    margin-right: 10rem;
+
+  }
+
   .toolbar_logo {
-    margin-left: 0;
+    margin-left: 10rem;
   }
 }

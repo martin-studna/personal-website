@@ -15,11 +15,25 @@
 }
 
 .about-title {
-  font-size: x-large
+  display: flex;
+  font-size: xx-large;
+  justify-self: flex-start;
+  margin: 10px 50px 20px 50px;
 }
 
 .about-text {
 
   word-wrap: break-word;
-  margin: 10px 50px 0px 50px;
+  margin: 10px 50px 10px 50px;
+}
+
+@media (min-width: 769px) {
+  .about-text {
+
+    margin: 10px 10rem 0px 10rem;
+  }
+
+  .about-title {
+    margin: 10px 0px 0px 10rem;
+  }
 }
