@@ -3,6 +3,15 @@ import "./Introduction.css"
 
 const introduction = props => (
   <div className="introduction">
+    <div className="introduction-video-container">
+      <video
+        className="introduction-video"
+        src={require("../../assets/Typing_dark_05_Videvo.mov")}
+        autoPlay={true}
+        loop={true}
+      />
+    </div>
+    <div className="introduction-header-overlay" />
     <div className="introduction-items">
       <img
         className="introduction-image"

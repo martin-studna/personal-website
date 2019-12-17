@@ -36,7 +36,7 @@ class App extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.SideDrawerOpen} />
         {backDrop}
-        <main>
+        <main className="main">
           <Introduction />
           <About />
           <Work />
