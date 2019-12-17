@@ -17,8 +17,10 @@ export default class Card extends React.Component {
           <div className="card-header">
             {this.renderImage()}
             <div className="card-header-title">{this.props.title}</div>
+            <div className="card-header-date">{this.props.date}</div>
           </div>
           <hr className="card-line" />
+          <div className="card-text">{this.props.children}</div>
         </div>
       </div>
     )
