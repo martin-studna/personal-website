@@ -9,13 +9,13 @@
 
 .work-items {
   text-align: center;
-  width: 100%;
+  width: 60%;
   height: 100%;
   margin: 30px;
 }
 
 .work-title {
-  margin: 20px 100px 20px 150px;
+  margin: 20px 0px 20px 50px;
   display: flex;
   font-size: xx-large;
   justify-self: flex-start;
@@ -34,7 +34,7 @@
 
 .work-card {
   height: 50vh;
-  width: 45vw;
+  width: 100%;
   margin-top: 20px;
   background: white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -49,4 +49,6 @@
   .work-title {
     margin: 10px 0px 0px 3rem;
   }
+
+
 }

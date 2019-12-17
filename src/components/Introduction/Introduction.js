@@ -6,7 +6,7 @@ const introduction = props => (
     <div className="introduction-video-container">
       <video
         className="introduction-video"
-        src={require("../../assets/Typing_dark_05_Videvo.mov")}
+        src={require("../../assets/Code_flythough_loop_01_Videvo.mov")}
         autoPlay={true}
         loop={true}
       />

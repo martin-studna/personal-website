@@ -1,5 +1,6 @@
 .card-content {
   margin: 1.5rem;
+  text-align: left;
 }
 
 .card-header {
@@ -8,6 +9,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 1rem;
+
 }
 
 .card-image {

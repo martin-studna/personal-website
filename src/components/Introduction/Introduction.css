@@ -35,11 +35,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-
   overflow: hidden;
 }
 
 .introduction-video {
+
   top: 0;
   left: 0;
   right: 0;
@@ -57,5 +57,5 @@
   margin-right: auto;
   min-width: 100%;
   height: 100%;
-  background-color: #1b2a2f8d;
+  background-color: #1b2a2fb0;
 }
