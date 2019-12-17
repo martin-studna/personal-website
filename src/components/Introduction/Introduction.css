@@ -1,14 +1,17 @@
 .introduction {
   display: flex;
-  height: 400px;
+  height: 600px;
   background: white;
   width: 100%;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .introduction-items {
   text-align: center;
+  position: relative;
+  color: white;
 }
 
 .introduction-image {
@@ -26,4 +29,33 @@
 
 .introduction-subtitle {
   margin-top: 3px;
+}
+
+.introduction-video-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.introduction-video {
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+
+}
+
+.introduction-header-overlay {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  height: 100%;
+  background-color: #1b2a2fb0;
 }
