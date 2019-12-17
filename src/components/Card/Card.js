@@ -19,6 +19,7 @@ export default class Card extends React.Component {
             <div className="card-header-title">{this.props.title}</div>
           </div>
           <hr className="card-line" />
+          <div>{this.props.content}</div>
         </div>
       </div>
     )

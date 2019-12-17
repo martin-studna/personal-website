@@ -9,20 +9,31 @@ const work = props => (
       <div className="work-cards">
         <Card
           className="work-card"
-          //imageSrc={require("../../assets/ibmlogo.png")}
-          title={"Mobile Developer"}
+          imageSrc={require("../../assets/acresia.png")}
+          content={`woefjwoeifwe.
+            wepfowefwepofkwepof kfwpeo kwpeok 
+            
+            fweofwoefij`}
+          title={"Mobile App Developer"}
         />
         <Card
           className="work-card"
           imageSrc={require("../../assets/ibmlogo.png")}
+          content={""}
           title={"Software Developer"}
         />
         <Card
           className="work-card"
           imageSrc={require("../../assets/qest-logo.svg")}
+          content={""}
           title={".NET Developer"}
         />
-        <Card className="work-card" title={".NET Developer"} />
+        <Card
+          className="work-card"
+          imageSrc={require("../../assets/qest-logo.svg")}
+          content={""}
+          title={".NET Developer"}
+        />
       </div>
     </div>
   </div>
