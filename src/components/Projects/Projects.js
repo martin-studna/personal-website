@@ -23,7 +23,7 @@ const projects = props => (
         <Card
           className="projects-card"
           imageSrc={require("../../assets/ibmlogo.png")}
-          content={""}
+          content={"Tobi chatbot"}
           title={"Tobi chatbot - Vodafone"}
           date={"1.7.2019 - present"}
         >
