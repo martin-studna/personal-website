@@ -5,7 +5,8 @@ import Card from "../Card/Card"
 const work = props => (
   <div className="work">
     <div className="work-items">
-      <div className="work-title">Work</div>
+    <div className="work-title">Work</div>
+      
       <div className="work-cards">
         <Card
           className="work-card"
