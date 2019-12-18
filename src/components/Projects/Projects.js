@@ -40,11 +40,7 @@ Development of Tobi chatbot in Vodafone
           Project Haidy - intelligent buildings. Development of cloud application, which communicates with house technologies. I am part of C# team, which is developing backend of the application. We are also using technologies like Docker or MongoDB.
 
         </Card>
-        <Card className="projects-card"
-         title={"Coin Group .NET Developer"} >
-Development of exchange website with virtual currencies. Technology of the website was based on ASP.NET
 
-         </Card>
       </div>
     </div>
   </div>
