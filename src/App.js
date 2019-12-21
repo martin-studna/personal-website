@@ -1,52 +1,52 @@
-import React, { Component } from "react"
-import Toolbar from "./components/Toolbar/Toolbar"
-import SideDrawer from "./components/SideDrawer/SideDrawer"
-import Backdrop from "./components/Backdrop/Backdrop"
-import Introduction from "./components/Introduction/Introduction"
-import About from "./components/About/About"
-import Projects from "./components/Projects/Projects"
-import Work from "./components/Work/Work"
-import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
-import "./App.css"
+import React, { Component } from "react";
+import Toolbar from "./components/Toolbar/Toolbar";
+import SideDrawer from "./components/SideDrawer/SideDrawer";
+import Backdrop from "./components/Backdrop/Backdrop";
+import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HomeScreen from './screens/HomeScreen/HomeScreen'
+import WorkshopsScreen from "./screens/WorkshopsScreen/WorkshopsScreen";
+import BlogScreen from "./screens/BlogScreen/BlogScreen";
+import ContactScreen from "./screens/ContactScreen/ContactScreen";
+import ProjectScreen from "./screens/ProjectScreen/ProjectScreen";
+
 class App extends Component {
   state = {
     SideDrawerOpen: false
-  }
+  };
 
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
-      return { SideDrawerOpen: !prevState.SideDrawerOpen }
-    })
-  }
+      return { SideDrawerOpen: !prevState.SideDrawerOpen };
+    });
+  };
 
   backdropClickHandler = () => {
-    this.setState({ SideDrawerOpen: false })
-  }
+    this.setState({ SideDrawerOpen: false });
+  };
 
   render() {
-    let backDrop
+    let backDrop;
 
     if (this.state.SideDrawerOpen) {
-      backDrop = <Backdrop click={this.backdropClickHandler} />
+      backDrop = <Backdrop click={this.backdropClickHandler} />;
     }
 
     return (
-      <div>
+      <Router>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.SideDrawerOpen} />
         {backDrop}
-        <main className="main">
-          <Introduction />
-          <About />
-          <Work />
-          <Projects />
-          <Contact />
-          <Footer />
-        </main>
-      </div>
-    )
+        <Switch>
+          <Route exact path="/" component={HomeScreen} />
+          <Route exact path="/Workshops" component={WorkshopsScreen}/>
+          <Route exact path="/Blog" component={BlogScreen}/>
+          <Route exact path="/Contacts" component={ContactScreen}/>
+          <Route exact path="/Projects" component={ProjectScreen}/>
+        </Switch>
+      </Router>
+    );
   }
 }
 
-export default App
+export default App;
