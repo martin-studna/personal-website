@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  height: 400px;
+  min-height: 400px;
   background: #1b2a2f;
   width: 100%;
   align-items: space-around;
