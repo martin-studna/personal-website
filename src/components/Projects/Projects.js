@@ -16,8 +16,7 @@ const projects = props => (
 
           I had a chance to be asked by Ing. Mgr. Luděk Nezmar, owner of Acresia Consulting to
           collaborate with him on several mobile projects.
-
-          I created a mobile application
+          I created a mobile application for UAMK
         
         </Card>
         <Card

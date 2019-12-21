@@ -1,7 +1,7 @@
 .example_a {
   color: black !important;
   text-decoration: none;
-  background: #fed316;
+  background: white;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;
@@ -11,7 +11,7 @@
 }
 
 .example_a:hover {
-  background: green !important;
+  background: #47ADF2 !important;
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -20,5 +20,4 @@
 
 .example_a:active {
   background: red;
-  color: blue;
 }

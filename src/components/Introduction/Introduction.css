@@ -58,3 +58,24 @@
   height: 100%;
   background-color: #1b2a2fb0;
 }
+
+
+@media (max-width: 768px) {
+  .introduction-video {
+    display: none;
+  }
+
+  .introduction-video-container {
+    background: url("../../assets/computer-wallpaper.png");
+    /* background-size: fill; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  }
+
+
+  
+}

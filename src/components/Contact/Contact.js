@@ -45,7 +45,7 @@ const contact = props => (
               ></textarea>
             </div>
           </div>
-          <div>
+          <div style={{marginBottom: "20px"}}>
             <textarea
               className="input-text"
               type="text"
@@ -56,7 +56,7 @@ const contact = props => (
               placeholder="Message"
             ></textarea>
           </div>
-          <Button id="submitButton" text="Submit" />
+          <Button id="submitButton" text="Send" />
         </form>
       </div>
     </div>

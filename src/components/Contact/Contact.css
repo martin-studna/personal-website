@@ -19,6 +19,7 @@
 
 .contact-title {
   margin: 20px 0px 0px 50px;
+
   display: flex;
   font-size: xx-large;
   justify-self: flex-start;
@@ -90,6 +91,8 @@
   --colorPrimary400: #bdbdbd;
   --colorPrimary600: #646464;
   --colorPrimary800: #353535;
+  --colorPrimary1000: #525252;
+
 
   --lineHeightSm: 1.1;
   --lineHeightMd: 1.8;
@@ -135,6 +138,7 @@
 .input-text-title {
   height: 50px;
   margin-bottom: 0rem;
+  width: 90%;
   overflow: hidden;
 
 }
@@ -146,7 +150,7 @@
 
 .input-text:focus {
   outline: none;
-  box-shadow: 0.2rem 0.8rem 1.1rem var(--colorPrimary600);
+  box-shadow: 0.2rem 0.8rem 1.1rem var(--colorPrimary1000);
 }
 
 .input-label {
@@ -197,15 +201,20 @@
 
 @media (min-width: 769px) {
   .input-text {
-    width: 70%;
+    width: 90%;
   }
 
   .input-text-title {
-    width: 50%;
+    width: 80%;
 
+  }
+
+  .contact-items {
+    width: 40%;
   }
 
   .reports-content {
     width: 500px;
   }
+
 }
