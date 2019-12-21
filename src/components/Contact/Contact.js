@@ -5,10 +5,10 @@ import Button from "../Button/Button"
 const contact = props => (
   <div className="contact">
     <div className="contact-items">
-      <div className="contact-title">Contact Me</div>
+      <div className="contact-title" data-aos='fade-up'>Contact Me</div>
       <div className="contact-subtitle"></div>
       <div>
-        <form className="report-form">
+        <form className="report-form" data-aos='fade-up'>
           {/* {<div class="error-message"></div>} */}
           <div className="form-row">
             <div>

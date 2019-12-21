@@ -5,10 +5,11 @@ import Card from "../Card/Card"
 const projects = props => (
   <div className="projects">
     <div className="projects-items">
-    <div className="projects-title">Projects</div>
+    <div className="projects-title" data-aos='fade-up'>Projects</div>
       
       <div className="projects-cards">
         <Card
+        
           className="projects-card"
           imageSrc={require("../../assets/acresia-logo.png")}
           title={"Zíráním nepomůžeš"}
@@ -30,6 +31,7 @@ const projects = props => (
 Development of Tobi chatbot in Vodafone
         </Card>
         <Card
+        
           className="projects-card"
           imageSrc={require("../../assets/qest-logo.svg")}
           content={""}

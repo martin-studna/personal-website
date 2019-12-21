@@ -1,9 +1,10 @@
 import React from "react"
 import "./About.css"
 
+
 const about = props => (
   <div className="about">
-    <div className="about-items">
+    <div className="about-items" data-aos='fade-up'>
       <div className="about-title">About</div>
       <div className="about-text">
         Hello, my name is Martin Studna. I am a freelance computer scientist and

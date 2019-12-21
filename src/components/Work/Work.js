@@ -2,13 +2,15 @@ import React from "react"
 import "./Work.css"
 import Card from "../Card/Card"
 
+
 const work = props => (
   <div className="work">
     <div className="work-items">
-    <div className="work-title">Work</div>
+    <div className="work-title" data-aos='fade-up'>Work</div>
       
-      <div className="work-cards">
+      <div className="work-cards" >
         <Card
+        
           className="work-card"
           imageSrc={require("../../assets/acresia-logo.png")}
           title={"Mobile Developer"}
@@ -21,6 +23,7 @@ const work = props => (
         
         </Card>
         <Card
+        
           className="work-card"
           imageSrc={require("../../assets/ibmlogo.png")}
           content={""}
@@ -31,6 +34,7 @@ const work = props => (
 Development of Tobi chatbot in Vodafone
         </Card>
         <Card
+        
           className="work-card"
           imageSrc={require("../../assets/qest-logo.svg")}
           content={""}
@@ -41,6 +45,7 @@ Development of Tobi chatbot in Vodafone
 
         </Card>
         <Card className="work-card"
+        
          title={"Coin Group .NET Developer"} >
 Development of exchange website with virtual currencies. Technology of the website was based on ASP.NET
 

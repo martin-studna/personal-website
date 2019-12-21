@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
+import AOS from 'aos';
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomeScreen from './screens/HomeScreen/HomeScreen'
@@ -9,11 +10,16 @@ import WorkshopsScreen from "./screens/WorkshopsScreen/WorkshopsScreen";
 import BlogScreen from "./screens/BlogScreen/BlogScreen";
 import ContactScreen from "./screens/ContactScreen/ContactScreen";
 import ProjectScreen from "./screens/ProjectScreen/ProjectScreen";
+import 'aos/dist/aos.css'
 
 class App extends Component {
   state = {
     SideDrawerOpen: false
   };
+
+  componentDidMount() {
+    AOS.init({once: true, duration: 1200})
+  }
 
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
