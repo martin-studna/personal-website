@@ -13,15 +13,27 @@ const introduction = props => (
       />
     </div>
     <div className="introduction-header-overlay" />
-    <div className="introduction-items" >
+    <div className="introduction-items">
       <img
-      data-aos='fade-up'
+        data-aos="fade-up"
         className="introduction-image"
         src={require("../../assets/profile.jpg")}
         alt="Avatar"
       ></img>
-      <div className="introduction-title" data-aos='fade-up'>Martin Studna</div>
-      <div className="introduction-subtitle" data-aos='fade-up'>Computer Scientist</div>
+      <div
+        className="introduction-title"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        Martin Studna
+      </div>
+      <div
+        className="introduction-subtitle"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        Computer Scientist
+      </div>
     </div>
   </div>
 )

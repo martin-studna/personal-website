@@ -5,12 +5,14 @@ import Button from "../Button/Button"
 const contact = props => (
   <div className="contact">
     <div className="contact-items">
-      <div className="contact-title" data-aos='fade-up'>Contact Me</div>
+      <div className="contact-title" data-aos="fade-up">
+        Contact Me
+      </div>
       <div className="contact-subtitle"></div>
       <div>
-        <form className="report-form" data-aos='fade-up'>
+        <form className="report-form" data-aos="fade-up">
           {/* {<div class="error-message"></div>} */}
-          <div className="form-row">
+          <div className="form-row" data-aos-delay="100">
             <div>
               <textarea
                 className="input-text input-text-title"
@@ -45,7 +47,7 @@ const contact = props => (
               ></textarea>
             </div>
           </div>
-          <div style={{marginBottom: "20px"}}>
+          <div style={{ marginBottom: "20px" }} data-aos-delay="200">
             <textarea
               className="input-text"
               type="text"
@@ -56,7 +58,7 @@ const contact = props => (
               placeholder="Message"
             ></textarea>
           </div>
-          <Button id="submitButton" text="Send" />
+          <Button id="submitButton" text="Send" data-aos-delay="300" />
         </form>
       </div>
     </div>

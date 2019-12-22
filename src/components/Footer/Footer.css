@@ -1,21 +1,20 @@
 .footer {
   display: flex;
-  height: 56px;
-  background: black;
+  height: 65px;
+  background: #24130D;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
 .footer-items {
-  text-align: center;
+
 }
 
-.footer-title {
-  font-weight: bold;
-  font-size: x-large;
-}
+.footer-image {
+  width: 30px;
+  height: 30px;
+  margin-left: 36px;
+  margin-right: 36px;
 
-.footer-subtitle {
-  margin-top: 3px;
 }

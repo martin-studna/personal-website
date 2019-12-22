@@ -4,8 +4,11 @@ import "./Footer.css"
 const footer = props => (
   <div className="footer">
     <div className="footer-items">
-      <div className="footer-title">footer</div>
-      <div className="footer-subtitle"></div>
+    <img className="footer-image" src={require("../../assets/facebook.svg")} />
+    <img className="footer-image" src={require("../../assets/instagram.svg")} />
+    <img className="footer-image" src={require("../../assets/twitter.svg")} />
+    <img className="footer-image" src={require("../../assets/linkedin.svg")} />
+
     </div>
   </div>
 )

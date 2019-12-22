@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-
+import React, { Component } from "react"
 
 export default class ProjectScreen extends Component {
-  render() {
-    return (
-      <div>
+  componentDidMount() {
+    document.getElementById("toolbar").style.background = "black"
+  }
 
-      </div>
-    )
+  render() {
+    return <div></div>
   }
 }

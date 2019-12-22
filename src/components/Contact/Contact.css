@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   min-height: 400px;
-  background: #f4933b;
+  background: #AB4F3D;
   width: 100%;
   justify-content: center;
 
@@ -10,6 +10,7 @@
 .contact-items {
   text-align: center;
   width: 80%;
+
   height: 100%;
   margin: 30px;
   display: flex;
@@ -91,7 +92,7 @@
   --colorPrimary400: #bdbdbd;
   --colorPrimary600: #646464;
   --colorPrimary800: #353535;
-  --colorPrimary1000: #525252;
+  --colorPrimary1000: #3a3a3a94;
 
 
   --lineHeightSm: 1.1;
@@ -211,6 +212,7 @@
 
   .contact-items {
     width: 40%;
+    min-width: 500px;
   }
 
   .reports-content {

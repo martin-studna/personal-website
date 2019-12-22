@@ -1,11 +1,39 @@
-import React, { Component } from "react";
-
+import React, { Component } from "react"
+import "./WorkshopsScreen.css"
 
 export default class WorkshopsScreen extends Component {
+  componentDidMount() {
+    document.getElementById("toolbar").style.background = "black"
+    document.getElementById("toolbar").style.position = "relative"
+  }
+
   render() {
     return (
-      <div>
-
+      <div className="workshops">
+        <div className="workshops-items">
+          <div className="workshops-title" data-aos="fade-up">
+            Workshops
+          </div>
+          <div
+            className="workshops-text"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Currently, I started cooperation with Ondřej Sika. I organize with
+            him workshops on several topics from Software development. We can
+            show you how to make programming faster with nowadays tools like
+            Docker, Git, Kubernetes and etc.
+          </div>
+          <div
+            className="workshops-text"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Futhermore, I am also higly experienced with programming
+            languages/frameworks like React Native, NodeJs, Java, .NET and many
+            other technologies.
+          </div>
+        </div>
       </div>
     )
   }
