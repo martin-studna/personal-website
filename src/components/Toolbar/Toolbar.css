@@ -1,7 +1,9 @@
 .toolbar {
   width: 100%;
-  background: black;
-  height: 56px;
+  background: rgba(0, 0, 0, 0);
+  height: 80px;
+  position: absolute;
+  z-index: 2;
 }
 
 .toolbar_navigation {
@@ -12,13 +14,13 @@
 }
 
 .toolbar_logo {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .toolbar_logo a {
   color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .spacer {
@@ -36,8 +38,12 @@
   padding: 0 1.5rem;
 }
 
+.toolbar_toggle-button {
+  margin-right: 1rem;
+}
+
 .toolbar_navigation_items a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -53,9 +59,7 @@
 }
 
 @media (min-width: 769px) {
-  .toolbar_toggle-button {
-    display: none;
-  }
+
 
   .toolbar_navigation_items {
     /* margin-right: 10rem; */
@@ -63,6 +67,6 @@
   }
 
   .toolbar_logo {
-    /* margin-left: 10rem; */
+    margin-left: 2rem;
   }
 }

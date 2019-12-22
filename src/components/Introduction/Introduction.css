@@ -72,10 +72,10 @@
     background-repeat: no-repeat;
     background-position: center;
     filter: blur(2px);
-  -webkit-filter: blur(2px);
+    -webkit-filter: blur(2px);
 
   }
 
 
-  
+
 }
