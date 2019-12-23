@@ -1,7 +1,7 @@
 .work {
   display: flex;
   height: auto;
-  background: #AB4F3D;
+  background: #11999e;
   width: 100%;
   justify-content: center;
 }
@@ -19,6 +19,7 @@
 
 .work-title {
   margin: 20px 0px 0px 50px;
+  color: white;
   display: flex;
   font-size: xx-large;
   justify-self: flex-start;
@@ -42,6 +43,19 @@
   background: white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
+
+.image-card {
+  height: 30vh;
+  width: 50%;
+  min-width: 400px;
+  align-self: center;
+  margin-top: 20px;
+  background: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+
 
 @media (max-width: 768px) {
   .work-card {

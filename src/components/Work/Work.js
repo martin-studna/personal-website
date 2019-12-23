@@ -1,6 +1,7 @@
 import React from "react"
 import "./Work.css"
 import Card from "../Card/Card"
+import ImageCard from "../ImageCard/ImageCard"
 
 const work = props => (
   <div className="work">
@@ -10,6 +11,13 @@ const work = props => (
       </div>
 
       <div className="work-cards" data-aos-delay="100">
+        <ImageCard
+          id="acresia"
+          className="image-card"
+          imageSrc={require("../../assets/acresia-logo.png")}
+          title={"Mobile Developer"}
+          date={"1.9.2019 - present"}
+        />
         <Card
           className="work-card"
           imageSrc={require("../../assets/acresia-logo.png")}

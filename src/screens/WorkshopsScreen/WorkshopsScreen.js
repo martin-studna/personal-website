@@ -19,9 +19,9 @@ export default class WorkshopsScreen extends Component {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            Currently, I started cooperation with Ondřej Sika. I organize with
-            him workshops on several topics from Software development. We can
-            show you how to make programming faster with nowadays tools like
+            I have currently started cooperation with Ondřej Sika. I organize
+            with him workshops on several topics from Software development. We
+            can show you how to make programming faster with nowadays tools like
             Docker, Git, Kubernetes and etc.
           </div>
           <div

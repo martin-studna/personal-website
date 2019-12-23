@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   height: auto;
-  background: #CDAD85;
+  background: #30e3ca;
   width: 100%;
   justify-content: center;
 }
@@ -17,6 +17,7 @@
 }
 
 .projects-title {
+  color: black;
   margin: 20px 0px 0px 50px;
   display: flex;
   font-size: xx-large;

@@ -1,19 +1,26 @@
 import React from "react"
-import "./Card.css"
+import "./ImageCard.css"
 
 export default class ImageCard extends React.Component {
   renderImage() {
     if (typeof this.props.imageSrc !== "undefined")
-      return <img className="card-image" src={this.props.imageSrc} alt="" />
+      return (
+        <img className="imagecard-image" src={this.props.imageSrc} alt="" />
+      )
     else return null
   }
 
   render() {
     return (
-      <div className={this.props.className}>
-        <div className="card-content">
-            {this.renderImage()}
-          <div className="card-text">{this.props.children}</div>
+      <div className={this.props.className} data-aos="fade-up">
+        <div className="imagecard-content">
+          <div className="imagecard-header">
+            <div className="imagecard-header-date">{this.props.date}</div>
+          </div>
+          <div className="imagecard-items">
+            {this.renderImage()}{" "}
+            <div className="imagecard-text">Mobile Developer</div>
+          </div>
         </div>
       </div>
     )
