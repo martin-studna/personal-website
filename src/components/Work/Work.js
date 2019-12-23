@@ -18,6 +18,20 @@ const work = props => (
           title={"Mobile Developer"}
           date={"1.9.2019 - present"}
         />
+        <ImageCard
+          className="image-card"
+          imageSrc={require("../../assets/ibmlogo.png")}
+          content={""}
+          title={"Cognitive AI Developer"}
+          date={"1.7.2019 - present"}
+        />
+        <ImageCard
+          className="image-card"
+          imageSrc={require("../../assets/qest-logo.svg")}
+          content={""}
+          title={".NET Developer"}
+          date={"1.6.2018 - 1.5.2019"}
+        />
         <Card
           className="work-card"
           imageSrc={require("../../assets/acresia-logo.png")}

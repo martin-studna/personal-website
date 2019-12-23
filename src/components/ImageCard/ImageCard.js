@@ -17,10 +17,8 @@ export default class ImageCard extends React.Component {
           <div className="imagecard-header">
             <div className="imagecard-header-date">{this.props.date}</div>
           </div>
-          <div className="imagecard-items">
-            {this.renderImage()}{" "}
-            <div className="imagecard-text">Mobile Developer</div>
-          </div>
+          <div className="imagecard-items">{this.renderImage()} </div>
+          <div className="imagecard-text">{this.props.title}</div>
         </div>
       </div>
     )

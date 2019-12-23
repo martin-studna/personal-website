@@ -45,9 +45,9 @@
 }
 
 .image-card {
-  height: 30vh;
-  width: 50%;
-  min-width: 400px;
+  height: 25vh;
+  width: 10%;
+  min-width: 375px;
   align-self: center;
   margin-top: 20px;
   background: white;
