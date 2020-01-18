@@ -1,9 +1,9 @@
 .introduction {
   display: flex;
-  height: 600px;
+  height: 100vh;
   background: white;
   width: 100%;
-  align-items: center;
+  
   justify-content: center;
   position: relative;
 }
@@ -11,6 +11,7 @@
 .introduction-items {
   text-align: center;
   position: relative;
+  margin-top: 28vh;
   color: white;
 }
 
@@ -24,10 +25,12 @@
 
 .introduction-title {
   font-weight: bold;
+  background-color: black;
   font-size: x-large;
 }
 
 .introduction-subtitle {
+  background-color: black;
   margin-top: 3px;
 }
 
@@ -72,6 +75,14 @@
     filter: blur(2px);
     -webkit-filter: blur(2px);
 
+  }
+
+  .introduction-title {
+    background-color: transparent;
+  }
+
+  .introduction-subtitle {
+    background-color: transparent;
   }
 
 

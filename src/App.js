@@ -11,6 +11,7 @@ import BlogScreen from "./screens/BlogScreen/BlogScreen"
 import ContactScreen from "./screens/ContactScreen/ContactScreen"
 import ProjectScreen from "./screens/ProjectScreen/ProjectScreen"
 import "aos/dist/aos.css"
+import NavigationBar from "./components/NavigationBar/NavigationBar"
 
 class App extends Component {
   state = {
@@ -40,9 +41,10 @@ class App extends Component {
 
     return (
       <Router>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.SideDrawerOpen} />
-        {backDrop}
+        {/* <Toolbar drawerClickHandler={this.drawerToggleClickHandler} /> */}
+        <NavigationBar/>
+        {/* <SideDrawer show={this.state.SideDrawerOpen} /> */}
+        {/* {backDrop} */}
         <Switch>
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/Workshops" component={WorkshopsScreen} />
