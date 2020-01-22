@@ -1,6 +1,6 @@
 nav {
-  height: 10vh;
-  background: #5b78c7;
+  height: 8vh;
+  background: black;
   position: relative;
 }
 
@@ -11,21 +11,20 @@ nav {
   align-items: center;
   margin-left: auto;
   position: fixed;
-  background: #5b78c7;
-  height: 100vh;
+  background: transparent;
+  height: 100%;
   width: 100%;
   flex-direction: column;
-  clip-path: circle(100px at 90% -10%);
-  -webkit-clip-path: circle(100px at 90% -10%);
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in;
   pointer-events: none;
   z-index: 4;
 }
 
 .nav-links.open {
-  clip-path: circle(1000px at 90% -10%);
-  -webkit-clip-path: circle(1000px at 90% -10%);
+  height: 100%;
+  width: 100%;
   pointer-events: all;
+  background: black;
   z-index: 4;
 }
 
