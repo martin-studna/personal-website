@@ -13,18 +13,10 @@ const work = props => (
       <div className="work-cards" data-aos-delay="100">
         <Card
           className="work-card"
-          imageSrc={require("../../assets/acresia-logo.png")}
-          title={"Mobile Developer"}
-          date={"1.9.2019 - present"}
-        >
-          I had a chance to be asked by Ing. Mgr. Luděk Nezmar, owner of Acresia
-          Consulting to collaborate with him on several mobile projects. I
-          created a mobile application
-        </Card>
-        <Card
-          className="work-card"
-          imageSrc={require("../../assets/ibmlogo.png")}
+          imageSrc={require("../../assets/ibm.png")}
           content={""}
+          company={"IBM"}
+          place={"Prague, The Capital, Czech Republic"}
           title={"Software Developer"}
           date={"1.7.2019 - present"}
         >
@@ -33,8 +25,23 @@ const work = props => (
         </Card>
         <Card
           className="work-card"
-          imageSrc={require("../../assets/qest-logo.svg")}
+          imageSrc={require("../../assets/acresia.png")}
+          company={"Acresia Consulting"}
+          place={"Prague, The Capital, Czech Republic"}
+          title={"Mobile Application Developer"}
+          date={"1.9.2019 - present"}
+        >
+          I had a chance to be asked by Ing. Mgr. Luděk Nezmar, owner of Acresia
+          Consulting to collaborate with him on several mobile projects. I
+          created a mobile application
+        </Card>
+        <Card
+          className="work-card"
+          imageSrc={require("../../assets/qest.png")}
           content={""}
+          company={"Qest Automation"}
+          place={"Prague, The Capital, Czech Republic"}
+          
           title={".NET Developer"}
           date={"1.6.2018 - 1.5.2019"}
         >
@@ -43,7 +50,12 @@ const work = props => (
           C# team, which is developing backend of the application. We are also
           using technologies like Docker or MongoDB.
         </Card>
-        <Card className="work-card" title={"Coin Group .NET Developer"}>
+        <Card className="work-card"
+         imageSrc={require("../../assets/coin_group.png")}
+         company={"Coin Group"}
+         date={"1.2.2018 - 1.3.2018"}
+          place={"Prague, The Capital, Czech Republic"}
+         title={".NET Developer"}>
           Development of exchange website with virtual currencies. Technology of
           the website was based on ASP.NET
         </Card>

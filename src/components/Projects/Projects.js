@@ -1,47 +1,43 @@
 import React from "react"
 import "./Projects.css"
 import Card from "../Card/Card"
+import ImageCard from "../ImageCard/ImageCard"
 
 const projects = props => (
   <div className="projects">
     <div className="projects-items">
-      <div className="projects-title" data-aos="fade-up">
+      <div className="projects-title" data-aos="fade-zoom-in">
         Projects
       </div>
 
-      <div className="projects-cards" data-aos-delay="100">
-        <Card
+      <div className="projects-cards" >
+        <ImageCard 
+          delay="100"
           className="projects-card"
-          imageSrc={require("../../assets/acresia-logo.png")}
+          imageSrc={require("../../assets/nezirej.png")}
           title={"Zíráním nepomůžeš"}
           date={"1.9.2019 - present"}
         >
-          I had a chance to be asked by Ing. Mgr. Luděk Nezmar, owner of Acresia
-          Consulting to collaborate with him on several mobile projects. I
-          created a mobile application for UAMK
-        </Card>
-        <Card
+          
+        </ImageCard>
+        <ImageCard
+        delay="300"
           className="projects-card"
-          imageSrc={require("../../assets/ibmlogo.png")}
+          imageSrc={require("../../assets/TOBi_default.svg")}
           content={"Tobi chatbot"}
-          title={"Tobi chatbot - Vodafone"}
+          title={"Chatbot Tobi"}
           date={"1.7.2019 - present"}
         >
-          Integration of IBM Watson in third-party services Development of Tobi
-          chatbot in Vodafone
-        </Card>
-        <Card
+          
+        </ImageCard>
+        <ImageCard
+          delay="500"
           className="projects-card"
-          imageSrc={require("../../assets/qest-logo.svg")}
+          imageSrc={require("../../assets/sketches.jpg")}
           content={""}
           title={"Procedural generation of pencil drawings"}
-          date={"1.6.2018 - 1.5.2019"}
         >
-          Project Haidy - intelligent buildings. Development of cloud
-          application, which communicates with house technologies. I am part of
-          C# team, which is developing backend of the application. We are also
-          using technologies like Docker or MongoDB.
-        </Card>
+        </ImageCard>
       </div>
     </div>
   </div>
