@@ -5,11 +5,12 @@ import Projects from "../../components/Projects/Projects";
 import Work from "../../components/Work/Work";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
+import "./HomeScreen.css"
 
 export default class HomeScreen extends Component {
   render() {
     return (
-      <div>
+      <div className="home">
         <Introduction />
         <About />
         <Work />

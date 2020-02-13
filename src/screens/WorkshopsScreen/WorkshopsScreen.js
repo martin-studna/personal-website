@@ -3,8 +3,8 @@ import "./WorkshopsScreen.css"
 
 export default class WorkshopsScreen extends Component {
   componentDidMount() {
-    document.getElementById("toolbar").style.background = "black"
-    document.getElementById("toolbar").style.position = "relative"
+   // document.getElementById("toolbar").style.background = "black"
+   // document.getElementById("toolbar").style.position = "relative"
   }
 
   render() {
