@@ -38,6 +38,14 @@ const projects = props => (
           title={"Procedural generation of pencil drawings"}
         >
         </ImageCard>
+        <ImageCard
+          delay="500"
+          className="projects-card"
+          imageSrc={require("../../assets/haidy.png")}
+          content={""}
+          title={"Haidy"}
+        >
+        </ImageCard>
       </div>
     </div>
   </div>

@@ -35,7 +35,7 @@
 }
 
 .work-card {
-  
+  min-height: 20vh;
   width: 80%;
   min-width: 400px;
   align-self: center;
@@ -45,7 +45,7 @@
 }
 
 .image-card {
-  height: 25vh;
+  
   width: 10%;
   min-width: 375px;
   align-self: center;
@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .work-card {
-    height: 50vh;
+    min-height: 25vh;
     width: 100%;
     min-width: 0px;
   }

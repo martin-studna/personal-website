@@ -14,9 +14,8 @@ const about = props => (
         Faculty of Mathematics and Physics, Charles University in Prague.
       </div>
       <div className="about-text" data-aos="fade-up" data-aos-delay="200">
-        Futhermore, I work as a part-time contractor in IBM where I focus on
-        chatbot development. Additionaly, I have also some personal contracts
-        with my clients.
+        Moreover, I have a part-time job in IBM where I focus on
+        chatbot development. On top of that, I have smaller contracts which include development of mobile applications.
       </div>
     </div>
   </div>

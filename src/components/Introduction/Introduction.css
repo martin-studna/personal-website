@@ -77,8 +77,13 @@
 
   }
 
+  .introduction-image {
+    margin-top: 5rem;
+  }
+
   .introduction-title {
     background-color: transparent;
+    
   }
 
   .introduction-subtitle {

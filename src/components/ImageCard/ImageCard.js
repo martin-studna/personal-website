@@ -14,11 +14,9 @@ export default class ImageCard extends React.Component {
     return (
       <div className={this.props.className} data-aos="fade-zoom-in" data-aos-delay={this.props.delay}>
         <div className="imagecard-content">
-          <div className="imagecard-header">
-          
-          </div>
-          <div className="imagecard-items">{this.renderImage()} </div>
+        {this.renderImage()} 
           <div className="imagecard-text">{this.props.title}</div>
+          
         </div>
       </div>
     )

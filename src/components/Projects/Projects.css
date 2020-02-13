@@ -8,12 +8,13 @@
 
 .projects-items {
   text-align: center;
-  width: 70%;
+  width: 60%;
   height: 100%;
   margin: 30px;
   display: flex;
   flex-direction: column;
   justify-items: center;
+  align-items: center;
 }
 
 .projects-title {
@@ -21,6 +22,7 @@
   margin: 20px 0px 0px 50px;
   display: flex;
   font-size: xx-large;
+  align-self: flex-start;
   justify-self: flex-start;
 
 }
@@ -28,18 +30,16 @@
 .projects-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
-  max-width: 1000px;
+
+  gap: 3vh 3vw;
+  max-width: 70vw;
 
 }
 
 .projects-card {
-  height: 30vh;
+  height: 20vh;
+  width: 15vw;
   margin-top: 20px;
-  min-width: 300px;
-  max-width: 300px;
-
   background: white;
   align-self: center;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
@@ -47,9 +47,9 @@
 
 @media (max-width: 768px) {
   .projects-card {
-    height: 50vh;
+    min-height: 40vh;
     width: 100%;
-    min-width: 0px;
+    
   }
 
   .projects-cards {

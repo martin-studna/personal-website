@@ -3,11 +3,12 @@
   min-height: 400px;
   background: #40514E;
   width: 100%;
-  align-items: space-around;
+
   justify-content: center;
 }
 
 .about-items {
+  flex-direction: column;
   color: white;
   max-width: 100%;
   text-align: center;
@@ -18,11 +19,12 @@
   display: flex;
   font-size: xx-large;
   justify-self: flex-start;
-  margin: 10px 50px 20px 50px;
+
+  margin: 40px 50px 20px 50px;
 }
 
 .about-text {
-
+  
   word-wrap: break-word;
   margin: 10px 50px 10px 50px;
 
