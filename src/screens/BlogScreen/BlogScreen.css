@@ -13,6 +13,7 @@
 .blog-title {
   display: flex;
   font-size: x-large;
+  font-weight: bold;
   justify-self: flex-start;
   margin: 100px 50px 20px 50px;
 }

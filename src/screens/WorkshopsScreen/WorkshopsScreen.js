@@ -38,8 +38,8 @@ export default class WorkshopsScreen extends Component {
             data-aos-delay="300"
           >
             <img className="workshops-image" alt="docker" src={require("../../assets/docker2.png")}/>
-            <img className="workshops-image" alt="docker" src={require("../../assets/kubernetes.png")}/>
-            <img className="workshops-image" alt="docker" src={require("../../assets/git.jpg")}/>
+            <img className="workshops-image" alt="kubernetes" src={require("../../assets/kubernetes.png")}/>
+            <img className="workshops-image" alt="git" src={require("../../assets/git.jpg")}/>
           </div>
         </div>
       </div>

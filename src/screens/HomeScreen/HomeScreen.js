@@ -5,6 +5,7 @@ import Projects from "../../components/Projects/Projects";
 import Work from "../../components/Work/Work";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
+import Skills from '../../components/Skills/Skills'
 import "./HomeScreen.css"
 
 export default class HomeScreen extends Component {
@@ -15,6 +16,7 @@ export default class HomeScreen extends Component {
         <About />
         <Work />
         <Projects />
+        <Skills />
         <Contact />
         <Footer />
       </div>

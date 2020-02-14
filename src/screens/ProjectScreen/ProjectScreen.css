@@ -1,0 +1,21 @@
+.project-page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.project-page-content {
+  margin-top: 7rem;
+  width: 50%;
+  height: 50%;
+}
+
+.project-page-title {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.project-page-text {
+
+}
