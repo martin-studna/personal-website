@@ -16,9 +16,8 @@ const NavigationBar = props => {
           if (nav === "nav-links") {
             setNav("nav-links open");
             setLine("line open")
-            setTimeout(() => {
-            document.body.style.overflowY = "hidden";
-            }, 700)
+            document.body.style.overflowY = "hidden"
+            
             setFade("fade");
           } else {
             setLine("line")

@@ -1,7 +1,6 @@
 import React from "react"
 import "./Work.css"
 import Card from "../Card/Card"
-import ImageCard from "../ImageCard/ImageCard"
 
 const work = props => (
   <div className="work">

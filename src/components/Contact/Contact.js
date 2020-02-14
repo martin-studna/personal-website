@@ -66,8 +66,8 @@ const contact = props => (
               data-aos-delay="400"
             ></textarea>
           </div>
-          <Button id="submitButton" text="Send" data-aos="fade-up"
-                data-aos-delay="400"
+          <Button id="submitButton" text="Send" aos="fade-zoom-in"
+                delay="100"
            />
         </form>
       </div>

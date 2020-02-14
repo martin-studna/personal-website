@@ -1,7 +1,4 @@
 import React, { Component } from "react"
-import Toolbar from "./components/Toolbar/Toolbar"
-import SideDrawer from "./components/SideDrawer/SideDrawer"
-import Backdrop from "./components/Backdrop/Backdrop"
 import AOS from "aos"
 import "./App.css"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
@@ -33,11 +30,11 @@ class App extends Component {
   }
 
   render() {
-    let backDrop
+    // let backDrop
 
-    if (this.state.SideDrawerOpen) {
-      backDrop = <Backdrop click={this.backdropClickHandler} />
-    }
+    // if (this.state.SideDrawerOpen) {
+    //   backDrop = <Backdrop click={this.backdropClickHandler} />
+    // }
 
     return (
       <Router>

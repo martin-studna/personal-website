@@ -8,6 +8,8 @@
 
 .workshops-items {
   margin: 30px;
+  width: 60%;
+  max-width: 900px;
 }
 
 .workshops-title {
@@ -18,27 +20,34 @@
 }
 
 .workshops-text {
-
   word-wrap: break-word;
   margin: 10px 50px 10px 50px;
-
-
 }
 
-@media (min-width: 769px) {
+.workshops-images {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  gap: 4vw ;
+  margin: 70px 50px 20px 50px;
+}
+
+.workshops-image {
+  max-width: 11rem;
+  max-height: 11rem;
+}
+
+@media (max-width: 768px) {
 
   .workshops-items {
-    width: 60%;
-    max-width: 900px;
-  }
-
-  .workshops-text {
-
-    /* margin: 10px 10rem 0px 25rem; */
+    width: 100%;
 
   }
 
-  .workshops-title {
-    /* margin: 10px 0px 0px 25rem; */
+  .workshops-images {
+    grid-template-columns: 100%;
+    gap: 4vh ;
+    justify-content: center;
+    justify-items: center;
   }
 }

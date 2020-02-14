@@ -1,20 +1,20 @@
 .blog {
   display: flex;
-  width: 100%;
   align-items: space-around;
   justify-content: center;
-
+  width: 60%;
+  max-width: 900px;
 }
 
 .blog-items {
-  margin: 30px;
+  
 }
 
 .blog-title {
   display: flex;
   font-size: x-large;
   justify-self: flex-start;
-  margin: 70px 50px 20px 50px;
+  margin: 100px 50px 20px 50px;
 }
 
 .blog-text {
@@ -25,20 +25,14 @@
 
 }
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
+
+  .blog {
+    width: 100%;
+    justify-content: flex-start;
+  }
 
   .blog-items {
-    width: 60%;
-    max-width: 900px;
-  }
-
-  .blog-text {
-
-    /* margin: 10px 10rem 0px 25rem; */
-
-  }
-
-  .blog-title {
-    /* margin: 10px 0px 0px 25rem; */
+    
   }
 }

@@ -33,6 +33,14 @@ export default class WorkshopsScreen extends Component {
             languages/frameworks like React Native, NodeJs, Java, .NET and many
             other technologies.
           </div>
+          <div className="workshops-images" 
+          data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <img className="workshops-image" alt="docker" src={require("../../assets/docker2.png")}/>
+            <img className="workshops-image" alt="docker" src={require("../../assets/kubernetes.png")}/>
+            <img className="workshops-image" alt="docker" src={require("../../assets/git.jpg")}/>
+          </div>
         </div>
       </div>
     )

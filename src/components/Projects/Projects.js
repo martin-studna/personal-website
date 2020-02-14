@@ -1,6 +1,5 @@
 import React from "react"
 import "./Projects.css"
-import Card from "../Card/Card"
 import ImageCard from "../ImageCard/ImageCard"
 
 const projects = props => (

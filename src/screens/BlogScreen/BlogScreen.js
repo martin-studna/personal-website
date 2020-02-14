@@ -14,7 +14,7 @@ export default class BlogScreen extends Component {
             Blog
           </div>
           <div className="blog-text" data-aos="fade-up" data-aos-delay="100">
-            Still in progress
+            Still in progress 
           </div>
         </div>
       </div>

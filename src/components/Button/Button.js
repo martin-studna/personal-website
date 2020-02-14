@@ -2,7 +2,10 @@ import React from "react"
 import "./Button.css"
 
 const button = props => (
-  <div className="button_cont" align="center">
+  <div className="button_cont" align="center"
+    data-aos={props.aos}
+    data-aos-delay={props.delay}
+  >
     <a
       className="example_a"
       href={props.href}
