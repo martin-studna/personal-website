@@ -12,7 +12,7 @@ nav {
   display: flex;
   list-style: none;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   margin-left: auto;
   position: fixed;
   background: transparent;
