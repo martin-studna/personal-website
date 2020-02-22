@@ -26,6 +26,7 @@
   transform: scaleX(0);
   transform-origin: 0%;
   animation: fillBar 2s forwards;
+  animation-delay: 300ms
 }
 
 @keyframes fillBar {

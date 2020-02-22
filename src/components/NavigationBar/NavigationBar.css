@@ -93,22 +93,38 @@ li.fade {
   height: 0.2rem;
   background: white;
   margin: 7px;
-  
-  transition: all 0.2s ease-in;
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .35s ease-in-out;
+  -moz-transition: .35s ease-in-out;
+  -o-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
 }
 
+
 .line.open:nth-child(1)  {
-  transform: rotate(45deg) translateX(14px);
+  
+  -webkit-transform: translateY(10px) rotate(135deg);
+  -moz-transform: translateY(10px) rotate(135deg);
+  -o-transform: translateY(10px) rotate(135deg);
+  transform: translateY(10px) rotate(135deg);
 
 }
 
 .line.open:nth-child(2) {
   opacity: 0;
+  transform: translateX(-20px);
 
 }
 
 .line.open:nth-child(3) {
-  transform:  rotate(-45deg) translateX(14px);
+  -webkit-transform: translateY(-10px) rotate(-135deg);
+  -moz-transform: translateY(-10px) rotate(-135deg);
+  -o-transform: translateY(-10px) rotate(-135deg);
+  transform: translateY(-10px) rotate(-135deg);
 
 }
 
