@@ -1,5 +1,4 @@
 .skill {
-  
   width: 22em;
   position: relative;
 }
@@ -27,6 +26,12 @@
   transform-origin: 0%;
   animation: fillBar 2s forwards;
   animation-delay: 300ms
+}
+
+@media (max-width: 768px) {
+  .skill {
+    width: 100%;
+  }
 }
 
 @keyframes fillBar {
