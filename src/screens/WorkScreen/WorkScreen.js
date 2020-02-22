@@ -5,6 +5,10 @@ export default class WorkScreen extends Component {
     document.getElementById("toolbar").style.background = "black"
   }
 
+  componentWillMount() {
+    document.getElementById("loader").classList.add("hidden")
+  }
+
   render() {
     return <div></div>
   }

@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    
     AOS.init({ once: true, duration: 1000, showInSequence: true })
   }
 

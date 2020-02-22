@@ -9,6 +9,13 @@ import Skills from '../../components/Skills/Skills'
 import "./HomeScreen.css"
 
 export default class HomeScreen extends Component {
+
+  componentDidMount() {
+    setTimeout(() => {
+      document.getElementById("loader").classList.add("hidden")
+    }, 3000);
+  }
+
   render() {
     return (
       <div className="home">

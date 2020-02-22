@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import "./BlogScreen.css"
 export default class BlogScreen extends Component {
-  componentDidMount() {
-    // document.getElementById("toolbar").style.background = "black"
-    // document.getElementById("toolbar").style.position = "relative"
+  componentWillMount() {
+    document.getElementById("loader").classList.add("hidden")
+
   }
 
   render() {
