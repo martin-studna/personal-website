@@ -17,13 +17,13 @@ nav {
   position: fixed;
   background: transparent;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   top: 0%;
   flex-direction: column;
   transition: all 0.3s ease-in;
   pointer-events: none;
   z-index: 4;
-  align-items: flex-end;
+
 }
 
 .nav-links.open {
