@@ -1,5 +1,5 @@
-import React from "react"
-import "./Introduction.css"
+import React from "react";
+import "./Introduction.css";
 
 const introduction = props => (
   <div className="introduction">
@@ -35,8 +35,17 @@ const introduction = props => (
       >
         Computer Scientist
       </div>
+      {/* <div className="anchor-button" onClick={() => {
+        document.querySelector("#scroll").scrollIntoView({"behavior": "smooth"})
+      }}>
+        <img
+          className="anchor-button-logo"
+          alt="arrow-down"
+          src={require("../../assets/expand-arrow.png")}
+        />
+      </div> */}
     </div>
   </div>
-)
+);
 
-export default introduction
+export default introduction;
