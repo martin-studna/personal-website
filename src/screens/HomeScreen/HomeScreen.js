@@ -13,7 +13,7 @@ export default class HomeScreen extends Component {
   componentWillMount() {
     setTimeout(() => {
       document.getElementById("loader").classList.add("hidden")
-    }, 3000);
+    }, 2000);
   }
 
   render() {
