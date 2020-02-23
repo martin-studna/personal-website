@@ -19,8 +19,9 @@ const work = props => (
           title={"Software Developer"}
           date={"1.7.2019 - present"}
         >
-          Integration of IBM Watson in third-party services Development of Tobi
-          chatbot in Vodafone
+          In IBM I mainly focus on development and integration of chatbots to
+          make some processes in banking or telecom companies more effective.
+
         </Card>
         <Card
           className="work-card"
@@ -30,9 +31,8 @@ const work = props => (
           title={"Mobile Application Developer"}
           date={"1.9.2019 - present"}
         >
-          I had a chance to be asked by Ing. Mgr. Luděk Nezmar, owner of Acresia
-          Consulting to collaborate with him on several mobile projects. I
-          created a mobile application
+          I am currently cooperating with Ing. Mgr. Luděk Nezmar, owner of Acresia
+          Consulting, on several mobile applications. 
         </Card>
         <Card
           className="work-card"
