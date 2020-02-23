@@ -5,7 +5,7 @@ export default class BlogScreen extends Component {
     document.getElementById("loader").classList.add("hidden")
 
   }
-
+  
   render() {
     return (
       <div className="blog">
