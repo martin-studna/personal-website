@@ -19,7 +19,7 @@ export default class WorkshopsScreen extends Component {
             data-aos-delay="100"
           >
             I have just started to make workshops on several topics from software development. I
-            can show you how to make programming faster with nowadays tools like
+            can show you how to make process of developing software more effective and mostly faster with nowadays tools like
             Docker, Git, Kubernetes and etc.
           </div>
           <div
