@@ -28,8 +28,7 @@ export default class WorkshopsScreen extends Component {
             data-aos-delay="200"
           >
             Futhermore, I am also higly experienced with programming
-            languages/frameworks like React Native, NodeJs, Java, .NET and
-            other technologies.
+            languages/frameworks like React Native, NodeJs, Java and .NET
           </div>
           <div className="workshops-images" 
           data-aos="fade-up"
