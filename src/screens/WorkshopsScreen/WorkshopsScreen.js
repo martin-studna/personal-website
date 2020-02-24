@@ -19,7 +19,7 @@ export default class WorkshopsScreen extends Component {
             data-aos-delay="100"
           >
             I have just started to make workshops on several topics from software development. I
-            can show you how to make process of developing software more effective and mostly faster with nowadays tools like
+            can show you how to make some processes in developing software more effective and mostly faster with nowadays tools like
             Docker, Git, Kubernetes and etc.
           </div>
           <div
@@ -28,7 +28,7 @@ export default class WorkshopsScreen extends Component {
             data-aos-delay="200"
           >
             Futhermore, I am also higly experienced with programming
-            languages/frameworks like React Native, NodeJs, Java, .NET and many
+            languages/frameworks like React Native, NodeJs, Java, .NET and
             other technologies.
           </div>
           <div className="workshops-images" 
