@@ -12,10 +12,12 @@
 }
 
 .skill_outer-bar, .skill_inner-bar {
+  border-radius: 15px;
   height: 1rem;
 }
 
 .skill_outer-bar {
+  
   width: 100%;
   background: #333;
 }
