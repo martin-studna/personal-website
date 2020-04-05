@@ -11,8 +11,8 @@ const transporter = nodemailer.createTransport({
   }
 })
 
-const app = express()
-const port = process.env.port || 3002
+const app = express();
+const port = process.env.port || 3002;
 
 app.use(express.json({ limit: '1mb'}))
 app.use(
