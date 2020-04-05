@@ -10,7 +10,7 @@ function Contact() {
 
 
   const handleSubmit = () => {
-    axios.post('http://localhost:3002/send',{
+    axios.post(`http://${process.env.REACT_APP_HOST}/send`,{
         email: email,
         subject: subject,
         message: message
