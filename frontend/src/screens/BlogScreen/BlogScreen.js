@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./BlogScreen.css"
 export default class BlogScreen extends Component {
   componentWillMount() {
-    document.getElementById("loader").classList.add("hidden")
+    /* document.getElementById("loader").classList.add("hidden") */
 
   }
   

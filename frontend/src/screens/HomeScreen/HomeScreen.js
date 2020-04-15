@@ -11,9 +11,9 @@ import "./HomeScreen.css"
 export default class HomeScreen extends Component {
 
   componentWillMount() {
-    setTimeout(() => {
+    /* setTimeout(() => {
       document.getElementById("loader").classList.add("hidden")
-    }, 2000);
+    }, 2000); */
   }
 
   render() {

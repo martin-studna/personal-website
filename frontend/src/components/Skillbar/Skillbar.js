@@ -53,7 +53,6 @@ export default class Skillbar extends React.Component {
             id={this.props.id}
             style={{
               width: this.props.percent,
-              background: this.props.color
             }}
             className={this.state.style}
           ></div>

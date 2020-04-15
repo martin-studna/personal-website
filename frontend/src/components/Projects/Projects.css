@@ -1,9 +1,11 @@
 .projects {
   display: flex;
-  height: auto;
+  min-height: 100vh;
   background: #30e3ca;
   width: 100%;
+  
   justify-content: center;
+  align-items: center;
 }
 
 .projects-items {
@@ -19,11 +21,10 @@
 
 .projects-title {
   color: black;
-  margin: 20px 0px 0px 50px;
   display: flex;
-  font-size: xx-large;
-  align-self: flex-start;
-  justify-self: flex-start;
+  font-size: 40px;
+  margin-bottom: 40px;
+  align-self: center;
 
 }
 

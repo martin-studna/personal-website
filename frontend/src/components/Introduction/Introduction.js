@@ -1,7 +1,14 @@
 import React from "react"
 import "./Introduction.css"
 
-const introduction = props => (
+function introduction() {
+
+  const scroll = () => {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth'})
+    
+  }
+
+  return (
   <div className="introduction">
     <div className="introduction-video-container">
       <video
@@ -19,24 +26,29 @@ const introduction = props => (
         className="introduction-image"
         src={require("../../assets/profile.jpg")}
         alt="Avatar"
-        data-aos-delay="2100"
+        data-aos-delay="100"
       ></img>
       <div
         className="introduction-title"
         data-aos="fade-up"
-        data-aos-delay="2200"
+        data-aos-delay="200"
       >
         Martin Studna
       </div>
       <div
         className="introduction-subtitle"
         data-aos="fade-up"
-        data-aos-delay="2300"
+        data-aos-delay="300"
       >
         Computer Scientist
       </div>
+
+      <button className="scroll-down-button" onClick={() => {scroll()}}>
+        <div className="button-arrow"></div>
+      </button>
     </div>
-  </div>
-)
+  </div>)
+
+}
 
 export default introduction

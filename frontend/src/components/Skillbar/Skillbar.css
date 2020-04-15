@@ -1,5 +1,5 @@
 .skill {
-  width: 22em;
+  width: 32em;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
 
 .skill_outer-bar, .skill_inner-bar {
   border-radius: 15px;
-  height: 1rem;
+  height: 1.3rem;
 }
 
 .skill_outer-bar {
@@ -23,8 +23,9 @@
 }
 
 .skill_inner-bar-val {
-  background: red;
+  background:  rgb(48, 227, 202);
   transform: scaleX(0);
+  box-shadow: 0 0 10px 2px rgb(48, 227, 202);
   transform-origin: 0%;
   animation: fillBar 2s forwards;
   animation-delay: 300ms

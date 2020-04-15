@@ -49,7 +49,7 @@
 
 .toolbar_navigation_items a:hover,
 .toolbar_navigation_items a:active {
-  color: #C31C27;
+  color: rgb(48, 227, 202);
 }
 
 @media (max-width: 768px) {

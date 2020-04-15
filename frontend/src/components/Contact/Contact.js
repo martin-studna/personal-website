@@ -16,6 +16,7 @@ function Contact() {
         message: message
       }).then((response) => {
         console.log(response.json());
+        resetForm()
       })
       .catch(() => {
         resetForm()

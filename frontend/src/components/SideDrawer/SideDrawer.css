@@ -45,7 +45,7 @@
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: #C31C27;
+  color: rgb(48, 227, 202);
 }
 
 @media (min-width: 769px) {}

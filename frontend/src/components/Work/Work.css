@@ -1,16 +1,16 @@
 .work {
   display: flex;
-  height: auto;
+  min-height: 100vh;
   background: #11999e;
   width: 100%;
   justify-content: center;
+  align-items: center;
 }
 
 .work-items {
   text-align: center;
   width: 60%;
-  height: 100%;
-  margin: 30px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -18,11 +18,12 @@
 
 
 .work-title {
-  margin: 20px 0px 0px 50px;
   color: white;
   display: flex;
-  font-size: xx-large;
-  justify-self: flex-start;
+  font-size: 40px;
+  align-self: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
 
 }
 
@@ -60,7 +61,7 @@
 @media (max-width: 768px) {
   .work-card {
     min-height: 25vh;
-    width: 100%;
+    width: 90%;
     min-width: 0px;
   }
 

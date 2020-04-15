@@ -3,7 +3,7 @@ import "./WorkshopsScreen.css"
 
 export default class WorkshopsScreen extends Component {
   componentWillMount() {
-    document.getElementById("loader").classList.add("hidden")
+    /* document.getElementById("loader").classList.add("hidden") */
   }
 
   render() {

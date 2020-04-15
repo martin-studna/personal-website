@@ -1,49 +1,119 @@
 .about {
   display: flex;
-  min-height: 400px;
+  min-height: 100vh;
+  height: auto;
   background: #40514E;
   width: 100%;
-
   justify-content: center;
 }
 
 .about-items {
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   color: white;
   max-width: 100%;
-  text-align: center;
-  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 60%;
+  height: auto;
 }
 
 .about-title {
-  display: flex;
   font-size: xx-large;
-  justify-self: flex-start;
-
-  margin: 40px 50px 20px 50px;
+  margin-bottom: 20px;
 }
 
 .about-text {
   
   word-wrap: break-word;
-  margin: 10px 50px 10px 50px;
+  margin-bottom: 20px;
+}
 
+.about-image-container {
+  
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.about-image {
+  max-width: 200px;
+  min-height: 250px; 
+  margin-left: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.work-offers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-offer-title {
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.work-offer-tickets {
+  display: grid;
+  grid-gap: 3rem;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.work-offer-ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 20px rgba(7, 7, 7, 0.859);
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.work-offer-ticket:hover {
+  color: white;
+  background: gray;
+  box-shadow: 0 0 30px white;
+  -webkit-transition: all 500ms linear;
+  -ms-transition: all 500ms linear;
+  transition: all 0.3s ease-in-out 0s;
 
 }
 
-@media (min-width: 769px) {
+.about-text-content {
+  display: flex;
+  flex-direction: row
+}
+
+@media (max-width: 768px) {
+
+  .work-offer-tickets {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-text-content {
+    flex-direction: column;
+  }
+
+  .about {
+    text-align: center;
+  }
 
   .about-items {
-    width: 60%;
-  }
-
-  .about-text {
-
-    /* margin: 10px 10rem 0px 25rem; */
-
-  }
-
-  .about-title {
-    /* margin: 10px 0px 0px 25rem; */
+    align-items: center;
   }
 }

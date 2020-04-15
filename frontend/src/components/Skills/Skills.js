@@ -14,7 +14,7 @@ const skills = props => (
         <Skillbar id="3" skill="Javascript" percent="60%" color="#30e3ca" />
         <Skillbar id="4" skill="C/C++" percent="45%" color="#30e3ca" />
         <Skillbar id="5" skill="Kotlin" percent="60%" color="#30e3ca" />
-         <Skillbar id="6" skill="Python" percent="40%" color="#30e3ca" />
+        <Skillbar id="6" skill="Python" percent="40%" color="#30e3ca" />
         {/*<Skillbar id="7" skill="Docker" percent="70%" color="green" />
         <Skillbar id="8" skill="Android" percent="70%" color="green" />
         <Skillbar id="9" skill="React" percent="70%" color="green" />

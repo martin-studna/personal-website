@@ -4,7 +4,7 @@ import "./ProjectScreen.css"
 export default class ProjectScreen extends Component {
 
   componentWillMount() {
-    document.getElementById("loader").classList.add("hidden")
+    /* document.getElementById("loader").classList.add("hidden") */
   }
 
   render() {

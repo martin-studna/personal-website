@@ -48,7 +48,11 @@ ul, li {list-style-type: none;
 }
 
 .nav-links li a:hover {
-  color: red;
+  color: rgb(48, 227, 202);
+}
+
+.nav-links li a:active {
+  color: #073e3f !important;
 }
 
 .nav-links li a {
@@ -157,7 +161,11 @@ li.fade {
 }
 
 .title:hover {
-  color: red;
+  color: rgb(48, 227, 202);
+}
+
+.title:active {
+  color: #073e3f !important;
 }
 
 @media (max-width: 768px) {
