@@ -19,11 +19,8 @@
 }
 
 .blog-text {
-
   word-wrap: break-word;
   margin: 10px 50px 10px 50px;
-
-
 }
 
 @media (max-width: 768px) {
