@@ -6,6 +6,7 @@ nav {
   left: 0;
   position: absolute;
   list-style-type: none;
+  z-index: 100000;
 }
 
 ul, li {list-style-type: none;
